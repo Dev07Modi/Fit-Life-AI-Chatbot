@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anta&family=Madimi+One&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page.html</title>
+    <style>
+        .navbar {
+            background-color:black;
+            overflow: auto;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: x-large;
+        }
+
+        .navbar li {
+            list-style: none;
+            float: left;
+            padding: 10px 10px;
+            margin-bottom: 10px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .searchbar {
+            float: right;
+            padding-right: 9px;
+            margin-bottom: 15px;
+
+        }
+
+        .searchbar input {
+            padding: 10px;
+        }
+
+        .searchbar button {
+            margin-bottom: 15px;
+            padding: 5px;
+        }
+
+        .navbar li a:hover {
+            color: gold;
+            text-decoration: underline;
+
+        }
+
+        .bgimg {
+            width: 600px;
+            float: left;
+            position: relative;
+           padding-top: 3%;
+
+        }
+
+        .Logo  {
+            width: 200px;
+            mix-blend-mode: multiply;
+            align-content: center;
+            padding-left: 25%;
+            padding-top: 3%;
+            
+        }
+
+        .AI{
+            width: 300px;
+            border-radius: 5000 xpx;
+            float: right;
+            mix-blend-mode: multiply;
+
+        }
+
+        .Video {
+            background-color: blue;
+            color: black;
+            font-size: larger;
+        }
+
+        .diss {
+            list-style: upper-roman;
+        }
+
+        .intro {
+            float: right;
+        }
+
+        body {
+            background-image: url(paper-style-luxury-background_23-2148982497.avif);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            width: auto;
+        }
+
+        .anta-regular {
+            font-family: "Anta", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .features{
+            list-style: upper-roman;
+        }
+        .list li{
+            font-size: x-large;
+        }
+        .version{
+            mix-blend-mode: multiply;
+        }
+        .who{
+            mix-blend-mode: multiply;
+            padding-left: 4%;
+        }
+    </style>
+</head>
+
+<body style="background-color: lightblue;" class="anta-regular">
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/Main%20page.html">Features</a></li>
+                <li><a href="http://127.0.0.1:5500/Chatbot.html"> Get Checked Now</a> </li>
+                <li><a href="http://127.0.0.1:5500/emergency.html">Emergency Numbers</a></li>
+                <li><a href="http://127.0.0.1:5500/About%20us.html">About US</a></li>
+            </ul>
+            <div>
+                <form action="https://www.google.com/search" method="get" class="searchbar">
+                    <input type="text" placeholder="search anything" name="q">
+                    <button type="submit"><img src="search.png" width="20px" height="auto"></button>
+                </form>
+
+            </div>
+        </nav>
+    </header>
+    <p>
+        <u><i>
+                <ul>
+                    <h1>
+                        What do we Provide you ?
+                    </h1>
+        </u></i>
+    <h3>
+        We give you information about your health ,symptoms and by which diseases you are infected
+        . We also help you to get out of the diseases that you are infected with our website.
+    </h3>
+    
+    <ul class="Features">
+        <h1><u><i>
+            Features of our website:-
+        </h1></i></u>
+        <div class="list">
+        <li>We provide you information about your health.</li>
+        <li>We have data about 20 most common diseases declared by WHO.</li>
+        <li>The information about the diseases which are not present in our database is solved by our GPT 4 Turbo.</li>
+        <li>You can see the symptoms and enter the symptoms to check which diseases you have.</li>
+        <li>Our chatbot is powered by botpress.</li>
+        <li>CLick on the Visit Now button in the Video to go to the Chatbot page or simply click Get Checked Now present in the navigation bar </li>
+    </div>
+    <center>
+        <video src="Fit life ai chatbot.mp4" autoplay loop muted width="900px" class="intro" onclick="location.href='http://127.0.0.1:5500/Chatbot.html'"></video>
+    </center>
+    </ul>
+<img src="GPT-4.webp" class="version" width="500px">
+<img src="images.png" class="who" width="400px">
+    </p>
+    <iframe width="0" height="0"  audio src="deep-meditation-192828.mp3" frameborder="0" allowfullscreen></iframe>
+</body>
+
+</html>

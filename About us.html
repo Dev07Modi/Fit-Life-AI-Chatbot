@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anta&family=Madimi+One&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" type="x-icon" href="logo.png">
+    <title>About us</title>
+    <style>
+        .navbar {
+            background-color: black;
+            overflow: auto;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: x-large;
+        }
+
+        .navbar li {
+            list-style: none;
+            float: left;
+            padding: 10px 10px;
+            margin-bottom: 10px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .searchbar {
+            float: right;
+            padding-right: 9px;
+            margin-bottom: 15px;
+
+        }
+
+        .searchbar input {
+            padding: 10px;
+        }
+
+        .searchbar button {
+            margin-bottom: 15px;
+            padding: 5px;
+        }
+
+        .navbar li a:hover {
+            color: gold;
+            text-decoration: underline;
+
+        }
+
+        body {
+            background-image: url(paper-style-luxury-background_23-2148982497.avif);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            width: auto;
+        }
+
+        .Help li {
+            font-size: x-large;
+            text-decoration: none;
+        }
+
+        .hello {
+            font-size: x-large;
+
+        }
+
+        .members li {
+            font-size: x-large;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .review-system {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .stars {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .stars input[type="radio"] {
+            display: none;
+        }
+
+        .stars label {
+            display: inline-block;
+            margin: 0 2px;
+            padding: 5px;
+            cursor: pointer;
+            color: #ccc;
+            font-size: 20px;
+        }
+
+        .stars input[type="radio"]:checked~label {
+            color: #f00;
+        }
+
+        .anta-regular {
+            font-family: "Anta", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .review {
+            background-color: black;
+            font-style: italic;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+        }
+
+        .review {
+            align-content: center;
+            max-height: 1000px;
+            height: 100%;
+            max-width: 500px;
+            width: 100%;
+            font-size: x-large;
+        }
+
+        .review:hover {
+            box-shadow: 0 0 5px gold,
+                0 0 25px gold, 0 0 50px gold,
+                0 0 100px gold, 0 0 150px gold;
+            color: gold;
+        }
+
+        .Thanks {
+            mix-blend-mode: multiply;
+            max-width: 100%;
+
+        }
+    </style>
+</head>
+
+<body class="anta-regular">
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/Main%20page.html">Features</a></li>
+                <li><a href="http://127.0.0.1:5500/Chatbot.html"> Get Checked Now</a> </li>
+                <li><a href="http://127.0.0.1:5500/emergency.html">Emergency Numbers</a></li>
+                <li><a href="#">About US</a></li>
+            </ul>
+            <div>
+                <form action="https://www.google.com/search" method="get" class="searchbar">
+                    <input type="text" placeholder="search anything" name="q">
+                    <button type="submit"><img src="search.png" width="20px" height="auto"></button>
+                </form>
+
+            </div>
+        </nav>
+    </header>
+    <p>
+        <center>
+            <h1><i><u><b>
+                            About the project
+                    </u></i></h1>
+    </p>
+    </center></b>
+    <p><i><b class="hello"><u>
+                    Hello Sir/Mam, This is our project, We Hope you like it. Basically this is an AI chatbot That helps
+                    you to:-
+                </u>
+                <ul class="Help">
+                    <li>Understand the diseases you have by entering the symptoms you have.</li>
+                    <li>How to cure the disease you have.</li>
+                    <li>Which medicine should be taken to cure the diseases you have.</li>
+                </ul>
+        </i></p></b>
+    <p><u><i><b>
+                    <h1>
+                        About Our Team:-
+                    </h1>
+            </i></u></p>
+    <p style="font-size: x-large;">
+        We are from Government Polytechnic Ahemdabad , Ambavadi . We are in the field Information Technology . We are in
+        Semster-2 .
+    </p>
+    <p><u><i>
+                <h1>
+                    Our Team:-
+                </h1>
+            </i></u></p>
+    <ul class="members">
+        <li>Modi Dev</li>
+        <li>Karm Dhinaya</li>
+        <li>Patel Samarth</li>
+        <li>Jay prajapati</li>
+    </ul></b>
+
+    <div class="review-system">
+        <h2><u><i>
+                    Rate this Website
+                </i></u></h2>
+        <div class="stars">
+            <input type="radio" name="rating" id="star1" value="1">
+            <label for="star1">1</label>
+            <input type="radio" name="rating" id="star2" value="2">
+            <label for="star2">2</label>
+            <input type="radio" name="rating" id="star3" value="3">
+            <label for="star3">3</label>
+            <input type="radio" name="rating" id="star4" value="4">
+            <label for="star4">4</label>
+            <input type="radio" name="rating" id="star5" value="5">
+            <label for="star5">5</label>
+        </div>
+        <p>Your rating: <span id="rating-value">0</span></p>
+    </div>
+    <script>
+        const stars = document.querySelectorAll('.stars input[type="radio"]');
+        const ratingValue = document.getElementById('rating-value');
+
+        stars.forEach(star => {
+            star.addEventListener('change', () => {
+                ratingValue.textContent = star.value;
+            });
+        });
+    </script>
+    <center style="color: white;">
+        <button onclick="window.location.reload();" class="review">Submit your Review</button>
+    </center>
+    <center>
+        <img src="thank you.avif" class="Thanks">
+    </center>
+    <iframe width="0" height="0"  audio src="deep-meditation-192828.mp3" frameborder="0" allowfullscreen></iframe>
+</body>
+
+
+</html>
